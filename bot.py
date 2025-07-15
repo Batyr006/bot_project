@@ -4,7 +4,7 @@ from database import init_db
 from handlers import register_handlers
 
 # Токен бота (не забудьте его защитить!) 🔐
-BOT_TOKEN = "7566492882:AAGWmTBjRIgUugNOH1wSwcxCh3cc-2sgM2o"
+BOT_TOKEN = "БОТ ТОКЕНА"
 
 # Инициализация бота с HTML-разметкой сообщений 🎨
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
